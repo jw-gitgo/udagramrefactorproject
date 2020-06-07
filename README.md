@@ -9,9 +9,9 @@
     - TravisCIBuildSucceeded.jpg: shows Travis CI build successfully completing without errors
     - KubectlShowsRunningK8sPods.jpg: Screenshot of kubectl get pod which shows all running containers (I only launched one of each due to resource constraints)
     - UdagramSuccessfullyRunning.jpg: Shows the udagram application successfully running on Kubernetes
-    - NOTE: I built a Kubernetes cluster using kops in AWS, but I did not deploy Udagram to this cluster, based on the mentor guidance in these two posts:
-        1. https://knowledge.udacity.com/questions/93032
-        2. https://knowledge.udacity.com/questions/106089
+    - K8sClusterRUnningOnAWS.jpg: shows Kubernetes cluster successfully deployed in AWS using Kops
+    UdagramRunningOnK8sClusterInAWS.jpg: shows the Udagram application running on the AWS Kubernetes cluster
+    - K8sABRollingDeployment.jpg: shows a new docker image being applied to a deployment, and the rolling update bringing it up in an A/B fashion, so that services are not interrupted.
 4. CI/CD Deployment:
     - NOTE: I was instructed in the mentor forums that I do not need to set up automatic deployment to Kubernetes through Travis CI to complete this project:
         - https://knowledge.udacity.com/questions/107660 
@@ -22,7 +22,7 @@
     - Per this mentor forum post, I achieved this by doing a rolling update of the kubernetes cluster:
         - https://knowledge.udacity.com/questions/111811
 
-FEEDBACK: this course (both the old version and the new version) and project have been extremely disappointing. The course and project instructions are very unclear, many steps and key information are missing, and this causes students to have to do hours (or days) of troubleshooting to complete even the most basic tasks. I did the Data Analyst nanodegree several years ago, and the quality of the course and projects was much better. It is a shame that this program now reflects so poorly on Udacity - I know you can do better.
+FEEDBACK: this course (both the old version and the new version) and project have been very disappointing. The course and project instructions are often very unclear, many steps and key information are missing, and this causes students to have to do hours (or days) of troubleshooting to complete even the most basic steps. I did the Data Analyst nanodegree several years ago, and the quality of the course and projects was much better. It is a shame that this course (and particularly this project) do not seem to be nearly as well-executed. On the positive side, Juan and Emil have been outstanding at quickly and thoroughly answering questions in the Mentor Forums - without their help, it would not be possible to complete this course at all.
 
 # --------------ORIGINAL README BELOW----------------------
 
