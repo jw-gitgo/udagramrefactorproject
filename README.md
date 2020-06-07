@@ -10,7 +10,7 @@
     - KubectlShowsRunningK8sPods.jpg: Screenshot of kubectl get pod which shows all running containers (I only launched one of each due to resource constraints)
     - UdagramSuccessfullyRunning.jpg: Shows the udagram application successfully running on Kubernetes
     - K8sClusterRUnningOnAWS.jpg: shows Kubernetes cluster successfully deployed in AWS using Kops
-    UdagramRunningOnK8sClusterInAWS.jpg: shows the Udagram application running on the AWS Kubernetes cluster
+    - UdagramRunningOnK8sClusterInAWS.jpg: shows the Udagram application running on the AWS Kubernetes cluster
     - K8sABRollingDeployment.jpg: shows a new docker image being applied to a deployment, and the rolling update bringing it up in an A/B fashion, so that services are not interrupted.
 4. CI/CD Deployment:
     - NOTE: I was instructed in the mentor forums that I do not need to set up automatic deployment to Kubernetes through Travis CI to complete this project:
